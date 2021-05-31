@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 3px solid rgb(100, 2, 2);
+}
+
+div.gallery:hover {
+  border: 4px solid rgb(15, 15, 15);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 4px solid #575D63;
+  padding: 5px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+ul li{
+        float:left;
+        border: inset;
+    }
+
+    ul li a{
+        width: 60px;
+        height: 60px;
+        background: url(sprites.png) no-repeat;
+        display:inline-block;
+    }
+    ul li.fb a{ background-position: 0px 0px;}
+    ul li.ig a{ background-position: -60px 0px;}
+    ul li.gg a{ background-position: 0px -60px;}
+    ul li.yt a{ background-position: -60px -60px;}
+</style>
+</head>
+<body style="background-color:rgb(242, 243, 248);">
+
+<h2 align="center">AKSESORIS </h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank">
+      <img src="ankleboots.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Ankleboots</div>
+    <div class="desc">500.000</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank">
+      <img src="boots.jpg" alt="gambar rusak" width="600" height="400">
+    </a>
+    <div class="desc">Boots</div>
+    <div class="desc">450.000</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="canvas.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Canvas</div>
+      <div class="desc">600.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="cutawai.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Cutawai</div>
+      <div class="desc">750.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="fantovel.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">fantovel</div>
+      <div class="desc">280.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="pumps.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Pumps</div>
+      <div class="desc">620.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="slingback.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Slingback</div>
+      <div class="desc">890.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="sneakers.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Sneakers</div>
+      <div class="desc">775.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="trainers.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Trainers</div>
+      <div class="desc">590.000</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank">
+        <img src="warrior shoes.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">warrior shoes</div>
+      <div class="desc">900.000</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

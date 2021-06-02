@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>mainly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			background:white;
+			margin: 0;
+			padding: 0;
+			font-family:'Odibee Sans', cursive;
+		}
+		.dropdown{
+			margin :o auto;
+		}
+		nav{
+			width:500px;
+			height: 70px;
+			background:white;
+			box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+			float:right;
+		}
+		nav ul{
+			padding: 0;
+			margin: 0;
+			margin-right: 30 px;
+			float:left;
+		}
+		nav ul li{
+			background:white;
+			position :relative;
+			list-style : none;
+			display :inline-block;
+			border-right:1px solid white;
+		}
+		nav ul li a{
+			display: block;
+			padding: 0 15px;
+			color:black;
+			text-decoration: none;
+			line-height: 60px;
+			font-size: 20px;
+            margin-right:0;
+		}
+		nav ul li a:hover{
+			background: gold;
+		}
+		nav ul ul{
+			position: absolute;
+			top: 60px;
+			display: none;
+		}
+		nav ul li:hover > ul{
+			display:block;
+		}
+		nav ul ul li{
+			width: 160px;
+			height:50px;
+			float :none;
+			display: list-item;
+			position: relative;
+		}
+        p{
+			font-family:'Pattaya', sans-serif;
+			display: block;
+			padding: 0 15px;
+			color:black;
+			text-decoration: none;
+			line-height: 0;
+			font-size: 20px;
+		}
+		.gif img{
+			display:block;
+			margin-right: auto;
+			margin-left: auto;
+			width:1300px;
+			height:500px;
+		}
+		.contact img{
+			width:30px;
+		}
+        div.gallery {
+      border: 3px solid   #F5F5DC;
+    }
+
+    div.gallery:hover {
+      border: 4px solid rgb(15, 15, 15);
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 4px solid #575D63;
+      padding: 5px;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+	</style>
+</head>
+<body>
+    <div class="dropdwon">
+        <nav>
+            <ul>
+                <li><a href="mainly.html">HOME</a></li>
+                <li><a href="#">COWOK</a>
+                    <ul>
+                        <li><a href="Baju Cowok/baju.html">Baju</a></li>
+                        <li><a href="Aksesoris Cowo/aksesoris.html">Aksesoris</a></li>
+                        <li><a href="Sepatu Cowok/sepatu.html">Sepatu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CEWEK</a>
+                    <ul>
+                        <li><a href="Baju Wanita/Baju Wanita.html">Baju</a></li>
+                        <li><a href="Aksesoris wanita/contoh 1.html">Aksesoris</a></li>
+                        <li><a href="sepatu/Sepatu wanita.html">Sepatu</a></li>
+					</ul>
+				</li>
+				<li><a href="Contact Us.html">CONTACT</a></li>
+                <li><a href="form1.html">ACCOUNT</a></li>
+            </ul>
+        </nav>
+    </div>
+	<div class ="gif">
+		<img src="sale.jpg"/>
+	</div>
+    <div class="new">
+        <h2 align="center">NEW ARRIVAL</h2>
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank">
+                <img src="Baju Wanita/dress.jpg" alt="Gambar Rusak" width="600" height="400">
+              </a>
+              <div class="desc">Dress Muslim</div>
+              <div class="desc">Rp209.000</div>
+              <button><a href="penjualan.html">Buy</a></button>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank">
+                <img src="sepatu/sneakers.jpg" alt="Gambar Rusak" width="400" height="300">
+              </a>
+              <div class="desc">sneakers</div>
+              <div class="desc">300.000</div>
+              <button><a href="penjualan.html">Buy</a></button>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="https://id.wikipedia.org/wiki/Jam_tangan#:~:text=Jam%20tangan%20atau%20arloji%20adalah,tampilan%20waktu%20yang%20terus%20bertambah.&text=Jam%20tangan%20pertama%20kali%20diperkenalkan,manual%20(hand%2Dwinding).">
+                <img src="Aksesoris wanita/jam tangan.jpg" alt="Gambar Rusak" width="600" height="400">
+              </a>
+              <div class="desc">jam tangan</div>
+              <div class="desc">150.000</div>
+              <button><a href="penjualan.html">Buy</a></button>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" >
+                <img src="Aksesoris Cowo/aks2.jpeg" alt="Gambar Rusak" width="600" height="400">
+              </a>
+              <div class="desc">Bracelet Nylon</div>
+              <div class="desc">Rp35.000</div>
+              <button><a href="penjualan.html">Buy</a></button>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
